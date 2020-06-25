@@ -87,7 +87,12 @@ Perfil_Profesional_Ingernieria_Automotriz postulante2= new Perfil_Profesional_In
        System.out.println(postulante1);
        System.out.println(postulante2);    
        
-      
+      if (postulante1.getExperiencia_Laboral()> postulante2.getExperiencia_Laboral()){
+        System.out.println(postulante1.getExperiencia_Laboral()+" nes mas experiencia laboral, por lo tanto dicho ingeniero, esta contratado");
+    }
+    else{
+            System.out.println(postulante2.getExperiencia_Laboral()+" es mas experiencia laboral, por lo tanto dicho ingeniero esta contratado");
+            }
  }}
 
    
